@@ -1,4 +1,4 @@
-package ma.enset.security.tp_jwt_spring;
+package ma.enset.security.tp_jwt_spring.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

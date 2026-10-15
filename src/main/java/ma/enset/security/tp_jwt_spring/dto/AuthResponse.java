@@ -1,4 +1,6 @@
 package ma.enset.security.tp_jwt_spring.dto;
 
-public record AuthResponse() {
+public record AuthResponse(
+        String token
+) {
 }

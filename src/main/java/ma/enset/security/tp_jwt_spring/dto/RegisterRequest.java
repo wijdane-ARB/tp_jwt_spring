@@ -1,4 +1,7 @@
 package ma.enset.security.tp_jwt_spring.dto;
 
-public record RegisterRequest() {
+public record RegisterRequest(
+        String email,
+        String password
+) {
 }
